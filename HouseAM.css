@@ -1,0 +1,823 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* IN-CAVE BACKGROUND */
+.lionImage>img {
+content: url('https://iili.io/fMMaVsI.webp')!important;
+    width: 640px;
+    height: 500px;
+}
+ 
+/* If you have a featured lion set then you'll want to use this one! ↴ */
+ 
+/* FEATURED LION BACKGROUND */
+.lionImage>div>img:first-child {
+content: url('https://iili.io/fMMkWUG.webp')!important;
+       width: 640px;
+    height: 500px;
+}
+/* BACKGROUND */
+
+
+body {
+	background: url('https://iili.io/fMMkxoP.webp') center center fixed;
+	background-size: 102%;
+	font-family: "Rye", serif;
+	color: #e6e6e6
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(38, 38, 40, .29);
+	border: 2px groove #fff;
+	box-shadow: 0px 10px 20px rgb(0, 0, 0);
+	border-radius: 5px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+.topbar {
+	background: rgb(0, 0, 0);
+	border: 2px groove #fff;
+	border-top: none;
+	color: #000000;
+	border-radius: 5px;
+}
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+	background: rgb(0, 0, 0);
+border: 2px groove #52070761;
+	border-bottom: 2px groove #fff;
+	color: #fff;
+	border-radius: 5px
+        
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #fff !important
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+	background: rgba(1, 1, 1, 0) !important;
+	border-bottom: none;
+	color: #950707 !important;
+	border-radius: 5px
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+	background: rgb(7, 0, 0) !important;
+        border: 2px groove #fff;
+	border-radius: 5px
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #fff
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Merry Christmas House - Akali";
+        color: #fff;
+        position: absolute;
+        right: 15%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: 1px solid white !important;
+	border-radius: 5px!important;
+	color: #fff !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+button.button, button.button:hover {
+	background: rgba(1, 1, 1, 0.5);
+        border: 1px solid white !important;
+	border-radius: 5px;
+        text-shadow: none !important;
+	color: #fff !important
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgb(46, 5, 5) !important;
+	border: none;
+	color: #c11616;
+	border-radius: 5px !important
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+	color: #fff;
+	font-size: 90px;
+	text-align: center;
+        font-family: "Rye", serif;
+     text-shadow: 1px 1px 10px rgb(185, 26, 26);
+
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #fff;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #fdfdfd !important;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #fff !important;
+        font-size: 26px !important;
+        font-family: "Rye", serif;
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(0, 0, 0, .5) !important;
+	box-shadow: none !important;
+	border: 1px groove white !important;
+	color: #fff !important;
+	border-radius: 5px
+}
+
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(104, 78, 78, .5);
+	color: #fff !important;
+	border-radius: 5px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(93, 6, 6, .5);
+	color: #000000 !important;
+	border-radius: 5px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #fff !important
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #694747 !important;
+}
+
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #fff !important;
+	border: none !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+	background: rgba(1, 1, 1, 0.5);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px
+}
+
+
+table#about.table {
+    background: url(https://i.pinimg.com/originals/81/7f/a6/817fa68189fecb680511ca42c75c3bc7.gif)no-repeat!important;
+    background-position: center -80px !important;
+    background-size: 100%!important;
+    border-radius: 1px;
+    position: relative;
+
+}
+table#player {
+    background: url('https://i.pinimg.com/originals/81/7f/a6/817fa68189fecb680511ca42c75c3bc7.gif') no-repeat center center!important;
+    background-position: center -413px !important;
+    background-size: cover!important;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 60px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    margin-top: -40px;
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+	background: rgba(1, 1, 1, 0) !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+	background: rgba(155, 226, 242, 0) !important;
+        color: #fff;
+	border-radius: 0px
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+	background: #280b0b70;
+	border: none !important;
+	border-radius: 10px !important
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: rgba(6, 0, 0, .5) !important;
+	color: #fff !important;
+	border: 1px solid #000000 !important;
+	border-radius: 0px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: rgba(85, 13, 13, .5);
+	border: none;
+	border-radius: 10px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: rgba(112, 12, 12, .5);
+        border-radius: 0px
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: rgba(1, 1, 1, 0.5) !important;
+	border: none !important;
+	border-radius: 5px !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+	color: #ffffff !important
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #950707 !important
+}
+
+
+
+
+/* BOX CONTAINER */
+
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+
+
+/* HOVER BOXES */
+.scrollSection {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.smallhoverbox1 {
+	float: left;
+	background: url('https://iili.io/fVHP3SR.webp')right;
+    background-size: 155%; 
+background-repeat: no-repeat; 
+	color: #fff;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+	padding: 5px;
+	border: 1px solid #860101;
+	border-radius: 0px;
+	margin: 10px;
+	height: 65px;
+	width: 50.4%;
+	overflow: auto;
+ transition: 2s
+}h2 {
+  color: rgb(254,254,254); 
+
+
+}
+
+
+
+
+.smallhoverbox2 {
+	float: left;
+	background: url('https://iili.io/fVHPhOB.webp')center;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+	color: #fff;
+	padding: 5px;
+	border: 1px solid #860101;
+	border-radius: 0px;
+	margin: 10px;
+	height: 65px;
+	width: 50.4%;
+	overflow: auto;
+        transition: 2s
+}
+
+.smallhoverbox1:hover {
+	height: 350px;
+	width: 50.4%;
+}
+
+
+
+
+.smallhoverbox2:hover {
+	height: 350px;
+	width: 50.4%;
+}
+
+
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img {
+	opacity: 1
+}
+
+
+#lion_image:after{
+    content: url("https://iili.io/fVG7uhg.png")!important; 
+        position:absolute!important;
+	left: 22px;
+	top: 150px;
+
+
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://iili.io/fVGL4pf.webp');
+    position: relative;
+    left: 30px;
+    bottom: -34px;
+
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.pinimg.com/originals/36/11/5b/36115b4a2eb4830dfcc435d636160784.gif') !important;
+    
+    width: 255px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+
+a[href$="328084"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/originals/3e/b3/9e/3eb39e0eadac0625f3dbbbd49b7f8c3a.gif') !important
+}
+a[href$="476585"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/originals/c4/9e/8e/c49e8e505d1a811da8d38ec602e3a28d.gif') !important
+}
+a[href$="336632"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/originals/0e/28/be/0e28be0d8aa6d553c9269cb08883c34a.gif') !important
+}
+a[href$="269879"]>div.cave-grid>img {
+	content: url('https://i.pinimg.com/originals/92/ec/ad/92ecad3383940af282ad05f673ec8834.gif') !important
+}
+a[href$="lionoverview.php?id=334440"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.pinimg.com/originals/8c/5e/09/8c5e095eb8dc32a6fca5d56a985905cf.gif') !important
+}
+
+
+a[href$="unsorted.php?id=334440"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.pinimg.com/originals/3d/ed/23/3ded233098842b4df4a5457eaf7d096e.gif') !important
+}
+
+
+
+
+div.mound-grid>img {
+    background: url('https://i.pinimg.com/originals/1f/21/34/1f21349424606c2fa2b71fc431f4a008.gif');
+    background-size: cover;
+    width: 100%;
+    height: 10%;
+    padding-top: 60%;
+    padding-right: 100%;
+    max-height: 150px;
+    border-radius: 10px !important;
+
+
+
+}
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+#commentBox::before {
+    content: " ''We can't change what's done, we can only move on''"; 
+    background: #0000007f; 
+    font-weight: 100; 
+    width: 100%; 
+    height: 30px; 
+    display: block; 
+    color: #ffffff; 
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden; 
+    
+}
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://iili.io/fVHyHa1.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://iili.io/fVHytHX.png')!important;
+    width:30px!important;
+ 
+}
+/* USE THESE TO CHANGE TO AN IMAGE */
+ 
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://iili.io/fVHDfrF.png')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://iili.io/fVHZOFe.png')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+  
+body { 
+cursor: url('https://iili.io/fVJ3tJ2.png'), auto!important;
+
+}
+
+div.col-xs-6 > a > h3 > div {
+    content: url('https://iili.io/fVwYkuf.png');
+    position: absolute;
+    width: 150px;
+    margin-right: 50px;
+    right: -80px;
+    margin-top: -50px;
+    z-index: -1;
+}
+
+div.col-xs-5 > a:nth-child(1) > h3 > div {
+    content: url('https://iili.io/fVwuz8v.png');
+    position: absolute;
+    width: 150px;
+    margin-right: 30px;
+    right: -60px;
+    margin-top: -40px;
+    z-index: 4;
+    transform: scaleX(1);
+}
+
+div.col-xs-5 > a:nth-child(3) > h3 > div {
+    content: url('https://iili.io/fVwuz8v.png');
+    position: absolute;
+    width: 150px;
+    margin-right: 50px;
+    right: -80px;
+    margin-top: -55px;
+    z-index: 5;
+}
+
+
+
